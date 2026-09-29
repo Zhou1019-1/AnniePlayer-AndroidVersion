@@ -1,0 +1,19 @@
+# ---- .NET / MAUI ----
+bin/
+obj/
+*.user
+.vs/
+
+# ---- 签名与机密（永不提交）----
+*.keystore
+*.jks
+key.properties
+secrets/
+服务器信息*.md
+
+# ---- 共享资产同步缓存 ----
+shared/vendor/
+
+# ---- 系统 ----
+Thumbs.db
+.DS_Store
